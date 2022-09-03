@@ -38,28 +38,28 @@ public:
 vector<mcq> list;
 void makeQue(){
     mcq* q1 = new mcq (
-            "What is ur name?",
+            "What is my name?",
             "Raju",
             "Sunny",
             "Spike",
             "Rajdeep",
-            'A'
+            'd'
     );list.push_back(*q1);
     mcq* q2 = new mcq(
-            "What is ur class?",
-            "10th",
-            "11th",
-            "12th",
-            "Fy Eng.",
-            'C'
-    );list.push_back(*q2);
-    mcq* q3 = new mcq(
-            "What is ur age?",
+            "What is your age?",
             "16",
             "17",
             "18",
             "19",
             'B'
+    );list.push_back(*q2);
+    mcq* q3 = new mcq(
+            "What is capital of India",
+            "Mumbai",
+            "Jaiput",
+            "Delhi",
+            "Ahmedabad",
+            'C'
     );list.push_back(*q3);
     mcq* q4 = new mcq(
             "Which among the following headstreams meets the Ganges in last?",
