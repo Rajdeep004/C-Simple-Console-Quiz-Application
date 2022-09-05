@@ -38,27 +38,27 @@ public:
 vector<mcq> list;
 void makeQue(){
     mcq* q1 = new mcq (
-            "What is my name?",
-            "Raju",
-            "Sunny",
-            "Spike",
-            "Rajdeep",
-            'd'
+            "What is capital of India?",
+            "Mumbai",
+            "Ahmedabad",
+            "Jaipur",
+            "Delhi",
+            'D'
     );list.push_back(*q1);
     mcq* q2 = new mcq(
-            "What is your age?",
-            "16",
-            "17",
-            "18",
-            "19",
+            "Which one is leap year?",
+            "2000",
+            "2020",
+            "2048",
+            "3000",
             'B'
     );list.push_back(*q2);
     mcq* q3 = new mcq(
-            "What is capital of India",
-            "Mumbai",
-            "Jaiput",
-            "Delhi",
-            "Ahmedabad",
+            "Home Minister of India : ",
+            "Rahul Gandhi",
+            "Narendra Modi",
+            "Amit Shah",
+            "Arvind Kejariwal",
             'C'
     );list.push_back(*q3);
     mcq* q4 = new mcq(
@@ -79,10 +79,10 @@ void makeQue(){
     );list.push_back(*q5);
    mcq* q6 = new mcq(
            "Patanjali is well known for the compilation of –",
-           " Yoga Sutra",
+           "Yoga Sutra",
            "Panchatantra",
            "Brahma Sutra",
-           " Ayurveda",
+           "Ayurveda",
            'A'
    );list.push_back(*q6);
    mcq* q7 = new mcq(
@@ -98,7 +98,7 @@ void makeQue(){
            "Pennar",
            "Cauvery",
            "Krishna",
-           " Tapti",
+           "Tapti",
            'B'
    );list.push_back(q8);
    mcq* q9 = new mcq(
@@ -109,7 +109,7 @@ void makeQue(){
            "France",
            'C'
    );list.push_back(*q9);
-   mcq* q1 = new mcq0(
+   mcq* q10 = new mcq(
            "Tsunamis are not caused by",
            "Hurricanes",
            "Earthquakes",
